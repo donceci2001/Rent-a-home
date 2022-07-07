@@ -1,0 +1,98 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: url("images/cover.png") ;
+}
+
+.login-div{
+  margin:50px auto;
+  width:250px;
+  height:300px auto;
+  background-color: #fff;
+  padding:50px;
+}
+
+.title{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  padding:2.5rem 0;
+  color:blue;
+  border-radius: .5rem;
+  padding:.2rem 1rem;
+  
+}
+.subtitle{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  padding:2.5rem 0;
+  color:orange;
+  border-radius: .5rem;
+  padding:.2rem 1rem;
+  
+}
+
+.form{
+  width: 80%;
+  margin-top:20px;
+}
+
+.form input{
+  font-size:18px;
+  padding:10px 20px 10px 10px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.username, .password, .password2, .name, .surname, .email, .offer{
+  display: block;
+  border-radius: 30px;
+  border: 1px solid rgba(0,0,0,0,2);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  margin: auto 
+  
+}
+
+.options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 0px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin: auto 
+
+}
+
+button.signin-btn, button.signup-btn, button.send {
+  width: 100%;
+  padding: 12px 10px;
+  border: none;
+  font-size: 18px;
+  border-radius: 30px;
+  background-color:#ffa500;
+  color: #fff;
+  margin-bottom: 5px;
+  text-align: center;
+  margin: auto 
+}
+
+.sign-up {
+  text-align: center;
+  padding: 5px 0px;
+  margin-bottom: 30px;
+}
+
+.desc{
+  font-size:1.5rem;
+  color:#333;
+  color:var(--orange);
+}
